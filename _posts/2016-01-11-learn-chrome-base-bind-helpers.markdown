@@ -5,7 +5,7 @@ date: 2016-01-11
 categories: chrome-base
 ---
 
-#SFINAE
+# SFINAE
 
 首先介绍一种SFINAE(Substitution Failure Is Not An Error),中文叫做匹配错误不是一个编译时错误。这个由Daveed Vandevorde与Nicolai Josuttis提出，它意味着宁可对有问题类型不考虑函数的重载也不要产生产生一个错误。换句话说：编译器在辩认函数模版时，假如有一个特化会导致编译时错误（即出现编译失败），只要还有别的选择可以被选择，那么就无视这个特化错误而去选择另外的可选选择。
 
