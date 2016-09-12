@@ -5,7 +5,7 @@ date: 2016-09-12
 categories: config
 ---
 
-* 证书登录
+# 证书登录
 
 1. 客户端生成证书: 私钥与公钥
 2. 服务器添加公钥
@@ -21,7 +21,7 @@ rsa是一种密码的算法，还有dsa可以选择。rsa是登录常用的
 - `id\_rsa`： 私钥
 - `id_rsa.pub`: 公钥
 
-* ssh服务端配置
+# ssh服务端配置
 
 ssh配置如下：
 
@@ -60,7 +60,7 @@ scp ~/.ssh/id_rsa.pub <ssh_username>@<ssh_server_ip>:<ssh_server_port>:~/.ssh/au
 /etc/init.d/ssh restart
 ```
 
-* 客户端使用私钥登录ssh服务器
+# 客户端使用私钥登录ssh服务器
 
 ssh命令
 
