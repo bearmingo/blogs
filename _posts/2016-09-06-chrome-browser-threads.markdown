@@ -8,6 +8,7 @@ categories: chrome
 * 线程分类
 
 Chrome的进程分类定义在`content\public\browser\browser_thread.h`的文件中。定义了以下几种线程。
+
 - `UI`: 浏览器进程中主线程。
 - `DB`: 与数据进行交互的线程。
 - `FILE`: 与文件系统进行交互的线程。
