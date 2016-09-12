@@ -83,5 +83,5 @@ scp -i ~/.ssh/id_rsa <to-local-file-name> <ssh_username>:<ssh_server_ip>:<ssh_se
 IdentityFile ~/.ssh/id_rsa
 
 # 如果有其它路径，还要以加入
-Identityfile <path-to-other>
+IdentityFile <path-to-other>
 ```
