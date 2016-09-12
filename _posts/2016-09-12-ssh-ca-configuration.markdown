@@ -24,6 +24,7 @@ rsa是一种密码的算法，还有dsa可以选择。rsa是登录常用的
 * ssh服务端配置
 
 ssh配置如下：
+
 ```bash
 vim /etc/ssh/sshd_config
 
@@ -74,7 +75,9 @@ scp -i ~/.ssh/id_rsa <to-local-file-name> <ssh_username>:<ssh_server_ip>:<ssh_se
 ```
 
 每次敲命令，都需要指定私钥。可以把私钥的路径加入到ssh客户端的默认配置里。
+
 修改/etc/ssh/ssh\_config
+
 ```config
 # 默认情况下已经加入私钥路径了。
 IdentityFile ~/.ssh/id_rsa
